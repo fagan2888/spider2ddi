@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook xmlns:act="http://ced2ar.org/ns/activities#" xmlns:ced2ar="http://ced2ar.org/ns/core#" xmlns:RePEc="https://ideas.repec.org/#" xmlns:exn="http://ced2ar.org/ns/external#" xmlns:repeca="https://ideas.repec.org/e/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:tr="http://example.com/ns/tr#" xmlns:ex="http://example.com/ns/ex#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:saxon="http://xml.apache.org/xslt" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dc="http://purl.org/dc/terms/" xmlns="ddi:codebook:2_5" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN.P/schemas/codebook.xsd">
+<docDscr>
+  <citation>
+    <titlStmt>
+      <titl>SIPP 2014</titl>
+      <altTitl>SIPP2014</altTitl>
+      <IDNo agency="DOI">TBD</IDNo>
+    </titlStmt>
+    <rspStmt>
+      <AuthEnty affiliation="Cornell University">Virtual RDC</AuthEnty>
+    </rspStmt>
+    <prodStmt>
+      <producer abbr="Cornell NCRN Project">Cornell NSF-Census Research Network</producer>
+      <copyright>Cornell NCRN Project</copyright>
+      <prodPlac>Cornell Institute for Social and Economic Research (CISER), Cornell University, Ithaca NY<ExtLink URI="http://ciser.cornell.edu"/>
+      </prodPlac>
+      <software>CED2AR</software>
+      <fundAg abbr="NSF">National Science Foundation (NSF)</fundAg>
+      <grantNo agency="National Science Foundation">1131848</grantNo>
+    </prodStmt>
+    <distStmt source="producer">
+      <distrbtr URI="http://www.ncrn.cornell.edu" abbr="Cornell NCRN Project">NSF-Census Research Network - Cornell node</distrbtr>
+      <distrbtr URI="http://www.ciser.cornell.edu" abbr="CISER">Cornell Institute for Social and Economic Research</distrbtr>
+      <distrbtr URI="http://www.ilr.cornell.edu/ldi" abbr="LDI">Labor Dynamics Institute</distrbtr>
+      <distDate date="2016">2016</distDate>
+    </distStmt>
+    <biblCit>Comprehensive Extensible Data Documentation and Access Repository. Codebook for the 2014 draft release of SIPP [Codebook file]. Cornell Institute for Social and Economic Research and Labor Dynamics Institute [distributor]. Cornell University, Ithaca, NY, 2016</biblCit>
+  </citation>
+  <docSrc>
+    <titlStmt>
+      <titl>SIPP_codebook_2014-beta</titl>
+      <altTitl>SIPP2014</altTitl>
+    </titlStmt>
+  </docSrc>
+</docDscr>
+<stdyDscr>
+  <citation>
+    <titlStmt>
+      <titl>SIPP_2014-beta</titl>
+      <IDNo>2014</IDNo>
+    </titlStmt>
+    <rspStmt>
+      <AuthEnty>United States Department of Commerce. Bureau of the Census.</AuthEnty>
+    </rspStmt>
+    <prodStmt>
+      <producer abbr="Census">United States Department of Commerce. Bureau of the Census.</producer>
+      <copyright>none</copyright>
+      <prodPlac>Washington, DC, USA</prodPlac>
+      <fundAg>National Science Foundation</fundAg>
+      <grantNo>1042181</grantNo>
+    </prodStmt>
+    <distStmt>
+      <distrbtr URI="http://www.census.gov/programs-surveys/sipp/methodology/sipp-synthetic-beta-data-product.html">United States Department of Commerce. Bureau of the Census.</distrbtr>
+    </distStmt>
+    <biblCit>U.S. Census Bureau. SIPP: Version 2014 [Computer file]. Washington DC; U.S. Census Bureau [distributor], Washington, DC, 2016</biblCit>
+  </citation>
+  <stdyInfo>
+    <subject>
+      <keyword>SIPP</keyword>
+    </subject>
+    <abstract>The SIPP 2014...</abstract>
+  </stdyInfo>
+  <method>
+    <dataColl>
+      <dataCollector abbr="Census">U.S. Census Bureau</dataCollector>
+      <sampProc/>
+      <collMode/>
+      <sources>
+        <dataSrc>SIPP Panels (2014)</dataSrc>
+      </sources>
+    </dataColl>
+  </method>
+</stdyDscr>
